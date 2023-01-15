@@ -1,0 +1,18 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <title>Password generator</title>
+    </head>
+    <body>
+        <div id="generator-container">
+            <h1>Generate a <span>random password</span></h1>
+            <p>Never use an insecure password again.</p>
+            <input type="number" id="pass-length" placeholder="Password length">
+            <button id="pass-gen-btn" onclick="genPasswords()">Generate passwords</button>
+            <div id="result-display">
+                <p class="pass-display" id="first-pass"></p>
+                <p class="pass-display" id="second-pass"></p>
+        </div> 
+        <script src="index.js"></script>
+    </body>
+</html>
